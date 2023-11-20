@@ -1,4 +1,3 @@
-# Arsène Brou 
 
 👋🏽 Welcome to my webpage 
 
