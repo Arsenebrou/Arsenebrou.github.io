@@ -1,5 +1,6 @@
 /* css styles */
 
+/* Custom styles for removing the vertical line */
 
 .nav-footer-left {
   text-align: left;
@@ -8,3 +9,18 @@
 .nav-footer-right {
   text-align: right;
 }
+
+
+/* Apply a global font style */
+body {
+    font-family: 'Arial', sans-serif; /* Example: Arial */
+    margin: 0,
+    padding: 0,
+}
+
+/* Ensure you are increasing the title size specifically */
+h1, title {
+    font-size: 2em; /* Example size, adjust to your preference */
+    text-align: center; /* Optional: Center align the title */
+}
+
