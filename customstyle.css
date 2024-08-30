@@ -11,16 +11,13 @@
 }
 
 
-/* Apply a global font style */
-body {
-    font-family: 'Arial', sans-serif; /* Example: Arial */
-    margin: 0,
-    padding: 0,
+/* Attempt to target the correct element */
+.about-left,
+.quarto-about-left {
+    border-right: none !important;  /* Remove the vertical line */
 }
 
-/* Ensure you are increasing the title size specifically */
-h1, title {
-    font-size: 2em; /* Example size, adjust to your preference */
-    text-align: center; /* Optional: Center align the title */
+.quarto-about-left,
+.about-left img {
+    border-right: none !important;  /* Targeting the image container */
 }
-

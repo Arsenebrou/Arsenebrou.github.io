@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.andreashandel.com/about.html</loc>
+    <lastmod>2024-08-29T23:47:58.782Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.andreashandel.com/index.html</loc>
-    <lastmod>2024-08-29T23:10:50.986Z</lastmod>
+    <lastmod>2024-08-29T23:54:59.162Z</lastmod>
   </url>
   <url>
     <loc>https://www.andreashandel.com/teaching.html</loc>
-    <lastmod>2024-01-15T17:31:38.718Z</lastmod>
+    <lastmod>2024-08-29T23:49:35.841Z</lastmod>
   </url>
   <url>
     <loc>https://www.andreashandel.com/research.html</loc>
-    <lastmod>2024-01-15T17:30:06.053Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.andreashandel.com/about.html</loc>
-    <lastmod>2024-01-15T17:22:14.278Z</lastmod>
+    <lastmod>2024-08-29T23:49:42.255Z</lastmod>
   </url>
 </urlset>
