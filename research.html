@@ -158,20 +158,63 @@ cookieconsent.run({
 
 </header>
 
-<!---
-## Working Paper
 
-A simplified decomposition approach for evaluating stock return predictability (_with Richard Luger_)
+<!-- Page-local styles (only affect this page) 
+<style>
+  .journal {
+    color: #2563eb;      /* blue for journal line */
+    font-style: italic;
+    font-weight: 500;
+  }
+  .justified {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    line-height: 1.55;
+  }
+    /* Smaller h2 just for this page */
+  h2 {
+    font-size: 1.4rem;   /* default is ~1.5–1.6rem */
+    font-weight: 600;
+  }
+</style>
 
-**Abstract**
+## Working Papers
 
-The modelling approach in Anatolyev and Gospodinov (2010) decomposes asset returns into their signs and absolute values, and obtains the joint distribution by specifying a multiplicative error model for the absolute values, a dynamic binary choice model for the signs, and a bivariate copula for their interaction. With this copula-based approach, each component is specified conditional on past information. In this paper, we propose a simplified approach that recovers the dynamics of the joint distribution with a specification for the sign component that conditions on past information and the contemporaneous absolute value. In sharp contrast to the original decomposition model, the simplified approach avoids the need to specify a copula for joining a continuous margin with a discrete one. Simulation results demonstrate that the simplified approach does as well as copula-based specifications, and empirical findings show that a larger degree of stock return predictability is revealed by decomposition modelling than by traditional predictive regressions.
+- **A new decomposition approach to modeling financial returns: conditioning sign on magnitude** – with R. Luger  (<span class="journal">R&amp;R at the <em>Journal of Banking &amp; Finance</em></span>)
+
+<div class="justified">
+
+Changes in volatility can provide valuable information about the likelihood of positive or negative returns. We propose a new approach to modeling financial returns that exploits this insight by decomposing returns into sign and magnitude (absolute value) components, with the magnitude being directly related to volatility. The joint distribution, from which the expected return is computed, is obtained by combining a model for the marginal distribution of the magnitude with a model for the distribution of the sign, conditional on the contemporaneous value of the magnitude. In contrast to the traditional linear predictive regression model, this decomposition approach captures nonlinear predictability features in asset return dynamics. An empirical out-of-sample forecasting evaluation using U.S. stock returns demonstrates significant statistical and economic gains from our model over both the traditional predictive regression, complete subset regression and copula-based decomposition models.
+
+</div>
 
 
-* Keywords: Predictive regression; Stock return predictability; Direction-of-change model; Absolute returns; Copula model
+- **The economic value of reward-to-risk timing strategies using return-decomposition GARCH models** 
 
-* JEL Classification: C13, C22, C51, G14
---->
+<div class="justified">
+
+In portfolio management, reward-to-risk timing strategies require estimates of expected returns in addition to volatility estimates. To address this need, I propose a new GARCH-type model based on a decomposition of returns into their signs and absolute values. The conditional volatility is determined by innovations following a folded distribution, while the conditional mean depends on the skewness dynamics implied by the interaction between the multiplicative sign and absolute return components. I compare the out-of-sample performance of this approach with the naive diversification rule, plug-in approach, and other GARCH-type specifications. An empirical analysis of daily stock returns demonstrates the economic value of exploiting the implied time-varying skewness for reward-to-risk timing strategies.
+
+</div>
+
+
+- **Combining multiple variance-ratio tests: an exact resampling-based approach** – with R. Luger
+
+<div class="justified">
+
+This paper proposes a distribution-free approach for combining multiple variance-ratio tests to assess the random walk hypothesis against stationary alternatives. To integrate evidence from multiple variance-ratio tests computed at different sampling intervals, we employ combination methods based on the minimum p-value, the product of p-values, and an adaptive approach that uses a truncated product of p-values. A resampling-based Monte Carlo procedure is developed to compute exact p-values for the combined statistics. Simulation studies demonstrate the power improvements achieved by combining variance-ratio tests, with notable gains from the adaptive method, which emphasizes the strongest p-values while discarding weaker ones. Finally, the methodology is applied to exchange rate data, providing new insights into the behavior of currency markets.
+
+</div>
+
+
+## Work in Progress
+
+- **Testing for directional dependence in economic time series: A Markov-chain approach** – with R. Luger $\&$ L. Arango-Castillo
+
+- **Matrix-free equicorrelation models** – with R. Luger
+
+-->
 
 
 

@@ -8,7 +8,7 @@
 
 <meta name="description" content="Andreas Handel’s personal website.">
 
-<title>Arsène Brou -</title>
+<title>Arsène Brou - Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -84,9 +84,12 @@ cookieconsent.run({
 </script> 
   
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="customstyle.css">
-<meta name="twitter:title" content="Arsène Brou -">
+<meta name="twitter:title" content="Arsène Brou - Research">
+<meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@spbou4">
 <meta name="twitter:card" content="summary">
 </head>
@@ -140,68 +143,54 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">EDUCATION</a></li>
+  <li><a href="#working-papers" id="toc-working-papers" class="nav-link active" data-scroll-target="#working-papers">Working Papers</a>
+  <ul class="collapse">
+  <li><a href="#work-in-progress" id="toc-work-in-progress" class="nav-link" data-scroll-target="#work-in-progress">Work in Progress</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research</h1>
+</div>
 
 
-<section id="education" class="level3">
-<h3 class="anchored" data-anchor-id="education">EDUCATION</h3>
-<section id="doctor-of-philosophy-in-quantitative-finance-ph.d." class="level4">
-<h4 class="anchored" data-anchor-id="doctor-of-philosophy-in-quantitative-finance-ph.d.">Doctor of Philosophy in Quantitative Finance (Ph.D.)</h4>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="working-papers" class="level1">
+<h1>Working Papers</h1>
 <ul>
-<li>2020-present</li>
-<li>Université Laval, Québéc</li>
+<li>A new decomposition approach to modeling financial returns: conditioning sign on magnitude (<em>with R. Luger</em>) (R<span class="math inline">\(\&amp;\)</span>R at the Journal of Banking <span class="math inline">\(\&amp;\)</span> Finance)</li>
 </ul>
-</section>
-<section id="m.sc.-in-statistics-and-quantitative-economics-ise" class="level4">
-<h4 class="anchored" data-anchor-id="m.sc.-in-statistics-and-quantitative-economics-ise">M.Sc. In Statistics and Quantitative Economics (ISE)</h4>
+<p>Changes in volatility can provide valuable information about the likelihood of positive or negative returns. We propose a new approach to modeling financial returns that exploits this insight by decomposing returns into sign and magnitude (absolute value) components, with the magnitude being directly related to volatility. The joint distribution, from which the expected return is computed, is obtained by combining a model for the marginal distribution of the magnitude with a model for the distribution of the sign, conditional on the contemporaneous value of the magnitude. In contrast to the traditional linear predictive regression model, this decomposition approach captures nonlinear predictability features in asset return dynamics. An empirical out-of-sample forecasting evaluation using U.S. stock returns demonstrates significant statistical and economic gains from our model over both the traditional predictive regression, complete subset regression and copula-based decomposition models.</p>
 <ul>
-<li>2016-2019</li>
-<li>Ecole Nationale Supérieure d’Economie Appliquée (ENSEA), Abidjan, Côte d’Ivoire</li>
+<li>The economic value of reward-to-risk timing strategies using return-decomposition GARCH models</li>
 </ul>
-</section>
-<section id="bachelor-of-business-administration---mathematics" class="level4">
-<h4 class="anchored" data-anchor-id="bachelor-of-business-administration---mathematics">Bachelor of Business Administration - Mathematics</h4>
+<p>In portfolio management, reward-to-risk timing strategies require estimates of expected returns in addition to volatility estimates. To address this need, I propose a new GARCH-type model based on a decomposition of returns into their signs and absolute values. The conditional volatility is determined by innovations following a folded distribution, while the conditional mean depends on the skewness dynamics implied by the interaction between the multiplicative sign and absolute return components. I compare the out-of-sample performance of this approach with the naive diversification rule, plug-in approach, and other GARCH-type specifications. An empirical analysis of daily stock returns demonstrates the economic value of exploiting the implied time-varying skewness for reward-to-risk timing strategies.</p>
 <ul>
-<li>2014-2016</li>
-<li>Institut National Polytechnique (INP-HB), Yamoussoukrou, Côte d’Ivoire</li>
+<li>Combining multiple variance-ratio tests: an exact resampling-based approach (<em>with R. Luger</em>)</li>
 </ul>
-<!--
-
-### EXPERIENCE
-
-#### Laval University
-##### Teaching
-* GSF-3100 Capital market (Fall/Winter 2021, Fall 2022 and Winter 2023)
-* GSF-6053 Financial Econometrics (Winter 2022)
-* GSF-1500 Financial Management (Summer 2022)
-
-##### Graduate Teaching Assistant
-* GSF-2101 Portfolio Management
-* GSF-6025 Financial Strategies and Policies I
-* GSF-6008 Corporate finance
-* GSF-2102 Corporate finance
-
-##### Graduate Research Assistant
-* 2017 - 2021
-* Real estate database creation
-* Hedonic modeling
-* Literature review on financial problematics
-* Program econometric regression models on R, SAS, MATLAB.
-
-### RESEARCH PROJECTS
-* Has financialization changed the impact of macro announcements ?
-* Do macro announcement surprises cause changes in liquidity, volatility or arbitrage opportunity in the Exchanged Traded Fund market?
-
-### TECHNICAL STRENGTHS
-* **Computer Languages:** SAS, R, MatLab, STATA, Python, SQL, Latex
-* **Databases:** COMPUSTAT, CRSP, Bloomberg, Morningstar, Thomson Reuters
--->
+<p>This paper proposes a distribution-free approach for combining multiple variance-ratio tests to assess the random walk hypothesis against stationary alternatives. To integrate evidence from multiple variance-ratio tests computed at different sampling intervals, we employ combination methods based on the minimum p-value, the product of p-values, and an adaptive approach that uses a truncated product of p-values. A resampling-based Monte Carlo procedure is developed to compute exact p-values for the combined statistics. Simulation studies demonstrate the power improvements achieved by combining variance-ratio tests, with notable gains from the adaptive method, which emphasizes the strongest p-values while discarding weaker ones. Finally, the methodology is applied to exchange rate data, providing new insights into the behavior of currency markets.</p>
+<section id="work-in-progress" class="level2">
+<h2 class="anchored" data-anchor-id="work-in-progress">Work in Progress</h2>
+<ul>
+<li><p>Testing for directional dependence in economic time series: A Markov-chain approach (<em>with R. Luger <span class="math inline">\(\&amp;\)</span> L. Arango-Catillo </em>)</p></li>
+<li><p>Matrix-free equicorrelation models (<em>with R. Luger</em>)</p></li>
+</ul>
+<!--- --->
 
 
 </section>

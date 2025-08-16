@@ -1,0 +1,29 @@
+---
+title: "Research"
+comments: false
+---
+
+## Working Papers
+
+* A new decomposition approach to modeling financial returns: conditioning sign on magnitude (_with R. Luger_) (R$\&$R at the Journal of Banking $\&$ Finance) 
+
+Changes in volatility can provide valuable information about the likelihood of positive or negative returns. We propose a new approach to modeling financial returns that exploits this insight by decomposing returns into sign and magnitude (absolute value) components, with the magnitude being directly related to volatility. The joint distribution, from which the expected return is computed, is obtained by combining a model for the marginal distribution of the magnitude with a model for the distribution of the sign, conditional on the contemporaneous value of the magnitude. In contrast to the traditional linear predictive regression model, this decomposition approach captures nonlinear predictability features in asset return dynamics. An empirical out-of-sample forecasting evaluation using U.S. stock returns demonstrates significant statistical and economic gains from our model over both the traditional predictive regression, complete subset regression and copula-based decomposition models.
+
+
+* The economic value of reward-to-risk timing strategies using return-decomposition GARCH models
+
+In portfolio management, reward-to-risk timing strategies require estimates of expected returns in addition to volatility estimates. To address this need, I propose a new GARCH-type model based on a decomposition of returns into their signs and absolute values. The conditional volatility is determined by innovations following a folded distribution, while the conditional mean depends on the skewness dynamics implied by the interaction between the multiplicative sign and absolute return components. I compare the out-of-sample performance of this approach with the naive diversification rule, plug-in approach, and other GARCH-type specifications. An empirical analysis of daily stock returns demonstrates the economic value of exploiting the implied time-varying skewness for reward-to-risk timing strategies.
+
+
+* Combining multiple variance-ratio tests: an exact resampling-based approach  (_with R. Luger_)
+
+This paper proposes a distribution-free approach for combining multiple variance-ratio tests to assess the random walk hypothesis against stationary alternatives. To integrate evidence from multiple variance-ratio tests computed at different sampling intervals, we employ combination methods based on the minimum p-value, the product of p-values, and an adaptive approach that uses a truncated product of p-values. A resampling-based Monte Carlo procedure is developed to compute exact p-values for the combined statistics. Simulation studies demonstrate the power improvements achieved by combining variance-ratio tests, with notable gains from the adaptive method, which emphasizes the strongest p-values while discarding weaker ones. Finally, the methodology is applied to exchange rate data, providing new insights into the behavior of currency markets.
+    
+
+## Work in Progress
+
+* Testing for directional dependence in economic time series: A Markov-chain approach (_with R. Luger $\&$ L. Arango-Catillo _)
+
+* Matrix-free equicorrelation models (_with R. Luger_)
+
+
