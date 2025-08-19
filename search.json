@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Arsène Brou",
     "section": "",
-    "text": "👋🏽 Welcome to my personal webpage!\nI am a final-year Ph.D. candidate in Quantitative Finance at the Department of Finance, Insurance, and Real Estate at Laval University.\nMy research interests are financial econometrics, simulation-based inference, and machine learning, with applications in asset pricing and financial risk modeling.\nPrior to my doctoral studies, I completed a Master’s in Statistics and Quantitative Economics (ISE) at ENSEA, Abidjan."
+    "text": "👋🏽 Welcome to my personal webpage!"
   },
   {
     "objectID": "research.html",
@@ -102,6 +102,41 @@
     "href": "index.html#news",
     "title": "Arsène Brou",
     "section": "News",
-    "text": "News"
+    "text": "News\n\nI will be attending the Financial Management Association (FMA) Annual Meeting in Vancouver, Canada, from October 22 to 25, 2025.\nI will be attending the Canadian Econometrics Study Group (CESG) Annual Meeting in Ottawa, Canada, from October 17 to 19, 2025."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Financial Econometrics II, Graduate level, Laval University (W 2021 – Present)\nQuantitative Risk Management, Graduate level, Laval University (F 2021 – F 2024)\nComputational Finance (Numerical Methods & Option Pricing), Undergraduate level, Laval University (F 2023, F 2024)\nQuantitative Investment Analysis and Programming, Undergraduate level, Laval University (F 2020, W 2021, F 2021)"
+  },
+  {
+    "objectID": "teaching.html#instructor-teaching-assistant",
+    "href": "teaching.html#instructor-teaching-assistant",
+    "title": "Teaching",
+    "section": "",
+    "text": "Financial Econometrics II\nQuantitative Risk Management\nComputational Finance\nQuantitative Investment Analysis and Programming\nR and VBA Programming with Applications in Finance"
+  },
+  {
+    "objectID": "teaching.html#teaching-assistant",
+    "href": "teaching.html#teaching-assistant",
+    "title": "Teaching",
+    "section": "",
+    "text": "Financial Econometrics II, Graduate level, Laval University (W 2021 – Present)\nQuantitative Risk Management, Graduate level, Laval University (F 2021 – F 2024)\nComputational Finance (Numerical Methods & Option Pricing), Undergraduate level, Laval University (F 2023, F 2024)\nQuantitative Investment Analysis and Programming, Undergraduate level, Laval University (F 2020, W 2021, F 2021)"
+  },
+  {
+    "objectID": "teaching.html#instructor",
+    "href": "teaching.html#instructor",
+    "title": "Teaching",
+    "section": "Instructor",
+    "text": "Instructor\n\nR and VBA Programming with Applications in Finance, Graduate level, Laval University (F 2022 – W 2025)\nQuantitative Investment Analysis and Programming, Undergraduate level, Laval University (W 2022, F 2024)"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Arsène Brou",
+    "section": "About me",
+    "text": "About me\nI am a final-year Ph.D. candidate in Quantitative Finance at the Department of Finance, Insurance, and Real Estate at Laval University.\nMy research interests are financial econometrics, simulation-based inference, and machine learning, with applications in asset pricing and financial risk modeling.\nPrior to my doctoral studies, I completed a Master’s in Statistics and Quantitative Economics (ISE) at ENSEA, Abidjan.\n📄 You can download my CV here."
   }
 ]
